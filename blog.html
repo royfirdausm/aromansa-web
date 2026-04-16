@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Aromansa Blog - Party Equipment Tips & Event Guides</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="party equipment blog, event planning tips, wedding setup guides, party decoration ideas" name="keywords">
+    <meta content="Expert articles and guides on party equipment selection, event planning, wedding setups, and decoration ideas from the Aromansa team." name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Quicksand:500,600,700&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Start -->
+    <header id="nav">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Aromansa Logo" />
+                        <span class="logo-text">Aromansa</span>
+                    </a>
+                </div>
+            </div>
+
+            <nav id="nav-menu-container" aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html"><span class="nav-text">Home</span><span class="nav-indicator"></span></a></li>
+                    <li><a href="equipment.html"><span class="nav-text">Equipment</span><span class="nav-indicator"></span></a></li>
+                    <li><a href="portfolio.html"><span class="nav-text">Portfolio</span><span class="nav-indicator"></span></a></li>
+                    <li class="menu-active"><a href="blog.html"><span class="nav-text">Blog</span><span class="nav-indicator"></span></a></li>
+                    <li><a href="careers.html"><span class="nav-text">Careers</span><span class="nav-indicator"></span></a></li>
+                    <li><a href="partners.html"><span class="nav-text">Partnerships</span><span class="nav-indicator"></span></a></li>
+                    <li><a href="contact.html"><span class="nav-text">Contact</span><span class="nav-indicator"></span></a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-right">
+                <a href="contact.html" class="nav-cta">Get Quote</a>
+                <a href="#" id="mobile-nav-toggle" aria-label="Toggle mobile navigation">
+                    <span class="hamburger">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Nav End -->
+
+    <main>
+        <!-- Blog Hero Section -->
+        <section class="blog-hero">
+            <div class="container">
+                <h1>Our Blog & Resources</h1>
+                <p>Expert articles, guides, and tips for event planning, party equipment selection, and creating unforgettable celebrations</p>
+                <div class="hero-search">
+                    <input type="text" id="blog-search-input" placeholder="Search articles...">
+                    <i class="fa fa-search search-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Filter Tabs -->
+        <section class="blog-filter-tabs">
+            <div class="container">
+                <div class="filter-tabs-container" id="blog-categories">
+                    <!-- Categories injected by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Grid Section -->
+        <section class="blog-grid-section">
+            <div class="container">
+                <div id="blog-list">
+                    <div class="row" id="blog-posts-container">
+                        <!-- Posts injected by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Blog Pagination -->
+                <nav aria-label="Blog pagination" class="blog-pagination" id="blog-pagination">
+                    <!-- Pagination will be injected by JavaScript -->
+                </nav>
+            </div>
+        </section>
+
+        <!-- Blog Newsletter -->
+        <section class="blog-newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest event planning tips, equipment guides, and industry insights</p>
+                <form class="blog-newsletter-form" action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe <i class="fa fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+
+        <style>
+            #blog-posts-container {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                margin-right: -15px !important;
+                margin-left: -15px !important;
+            }
+            #blog-posts-container > div {
+                width: 33.333% !important;
+                flex: 0 0 33.333% !important;
+                max-width: 33.333% !important;
+                padding-right: 15px !important;
+                padding-left: 15px !important;
+                box-sizing: border-box !important;
+            }
+            .blog-post-item {
+                width: 100% !important;
+            }
+            @media (max-width: 992px) {
+                #blog-posts-container > div {
+                    width: 50% !important;
+                    flex: 0 0 50% !important;
+                    max-width: 50% !important;
+                }
+            }
+            @media (max-width: 576px) {
+                #blog-posts-container > div {
+                    width: 100% !important;
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                }
+            }
+        </style>
+    </main>
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 footer-info">
+                        <h3><span>Aromansa</span></h3>
+                        <p>Your trusted partner for premium party equipment and event rental services. We provide high-quality sound systems, lighting, and decor to make your celebrations unforgettable.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="equipment.html">Equipment</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><i class="fa fa-map-marker-alt"></i> <span>Jl. Event Organizer No. 123, Jakarta, Indonesia</span></p>
+                        <p><i class="fa fa-phone"></i> <a href="tel:+6281234567890">+62 812-3456-7890</a></p>
+                        <p><i class="fa fa-envelope"></i> <a href="mailto:info@aromansa.com">info@aromansa.com</a></p>
+                        <p><i class="fa fa-clock"></i> <span>Mon - Sun: 08:00 - 22:00</span></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to get updates on new equipment, special offers, and event planning tips!</p>
+                        <form class="newsletter-form" action="#" method="post">
+                            <input type="email" name="email" placeholder="Your email address" required>
+                            <button type="submit" aria-label="Subscribe"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 <a href="index.html">Aromansa</a>. All Rights Reserved | Premium Party Equipment &amp; Event Rental</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Mobile Nav Overlay -->
+    <div id="mobile-body-overly"></div>
+    <nav id="mobile-nav">
+        <ul>
+            <li><a href="index.html"><span class="nav-text">Home</span></a></li>
+            <li><a href="equipment.html"><span class="nav-text">Equipment</span></a></li>
+            <li><a href="portfolio.html"><span class="nav-text">Portfolio</span></a></li>
+            <li class="menu-active"><a href="blog.html"><span class="nav-text">Blog</span></a></li>
+            <li><a href="careers.html"><span class="nav-text">Careers</span></a></li>
+            <li><a href="partners.html"><span class="nav-text">Partnerships</span></a></li>
+            <li><a href="contact.html"><span class="nav-text">Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
